@@ -28,7 +28,12 @@ class _MenuState extends State<Menu> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User\'s Profile'),
+        title: Text('User Profile',
+        style: TextStyle(
+          fontStyle: FontStyle.italic,
+          fontWeight: FontWeight.bold,
+        ),
+        ),
         centerTitle: true,
         backgroundColor: Colors.indigo[900],
         elevation: 0,
